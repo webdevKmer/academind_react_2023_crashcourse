@@ -1,1 +1,3 @@
-# academind_react_2023_crashcourse
+# Starting a vite React project
+
+## Reviewing the basic React Concept with Academind
