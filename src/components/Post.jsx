@@ -1,14 +1,10 @@
-const names = ['Adrien', 'Lionel']
-const messages = ['Javascript', 'React']
 
-function Post() {
-    const choosenName = Math.random() < 0.5 ? names[0] : names[1]
-    const choosenMessage = Math.random() < 0.5 ? messages[0] : messages[1]
-
+function Post(props) {
+    
   return (
     <div>
-        <p>{choosenName}</p>
-        <p>{choosenMessage} is awesome!</p>
+        <p>{props.author}</p>
+        <p>{props.message}</p>
     </div>
   )
 }
