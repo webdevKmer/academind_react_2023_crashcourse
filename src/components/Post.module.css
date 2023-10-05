@@ -1,0 +1,16 @@
+.author{
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: bold;
+}
+
+.post{
+    text-align: justify;
+    font-style: italic;
+}
+.li{
+    margin-bottom: .5rem;
+    background-color: whitesmoke;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+}
